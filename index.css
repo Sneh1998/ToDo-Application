@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    background-color: rgb(21, 102, 75);
+}
+h1{
+    text-align: center;
+    font-family: 'Alfa Slab One', 'Calibri';
+    font-size: 60px;
+    margin: 40px;
+    /* font-weight: bolder; */
+}
+
+#todoInput::placeholder{
+    font-family: 'Alfa Slab One', 'Calibri';
+}
+
+#todoInput{
+    margin-left: 200px ;
+    height: 55px;
+    width:70%;
+    font-family: 'Alfa Slab One', 'Calibri';
+    border-radius: 15px;
+    font-size: 25px;
+}
+ 
+#addButton{
+    height: 55px;
+    font-family: 'Alfa Slab One', 'Calibri';    
+    width: 55px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.deleteButton{
+    height: 35px;
+    font-family: 'Alfa Slab One', 'Calibri';    
+    width: 35px;
+    float: right;
+
+    border-radius: 5px;
+    font-size: 15px;
+}
+.todoSpans{
+    margin-left: 200px ;
+    width:70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', 'Calibri';
+    font-size: 35px;
+    margin-top:30px;
+    background-color: cadetblue;
+}
+
+
+
+/* form.html styling */
+
+form{
+    
+}
